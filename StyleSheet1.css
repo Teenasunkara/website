@@ -1,0 +1,40 @@
+﻿body {
+}
+
+div {
+    background-color: ghostwhite;
+}
+
+
+p {
+    font-size: 16px;
+    width: 100%;
+}
+
+#menu {
+    width: 100%;
+    background-color: #ffffff;
+    height: 40px;
+}
+
+    #menu li {
+        width: 200px;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+        font-size: 18px;
+        list-style: none;
+    }
+
+        #menu li a {
+            color: #7d54b1;
+            font-size: 22px;
+            text-decoration: none;
+        }
+
+            #menu li a:hover {
+                color: #853675;
+                font-size: 22px;
+            }

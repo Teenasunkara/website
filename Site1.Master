@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="websitee.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+        <div>
+            <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+            text-align: center;
+            background-color:#ghostwhite;
+            color: #FF;
+            width:1000px;
+        }
+        .auto-style2 {
+            height: 585px;
+           
+        }
+    </style>
+</head>
+<body>
+   
+        <div>
+            <table align="centre" style ="width: 100%;">
+                <tr style ="height:100px;">
+                    <td class="auto-style1"> My personal website</td>
+
+        </tr>
+        <tr style ="height:40px;">
+            <td>
+                <ul id="menu">
+             <li>
+                <a href="default.aspx"> Overview </a></li>
+			<li> <a href="Goals.aspx">Goals</a> </li>
+			<li><a href="Initiatives.aspx">Initiatives</a></li>
+            <li><a href="Contactdetails.aspx">Contact details</a></li>
+
+			
+  
+             </ul>
+
+            </td>
+
+        </tr>
+                <tr style ="vertical-align:top;">
+                    <td class="auto-style2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                    
+                </td>
+                    </tr>
+          </table>
+            
+        </div>
+    <a href="default.aspx">default.aspx</a>
+</body>
+</html>
+
